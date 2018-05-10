@@ -8,8 +8,8 @@ Based on Pro Micro, with the 3D printable expandable modular case.
 
 # Max number of buttons
 The device can provide up to 128 buttons. Each rocker/toggle switch counts as 2 buttons, each encoder counts as 3 button. So the formula is:  
-`#if ((KEYPADS_NO*16)+(ENCODERS_NO*3)+(SWITCHES_NO*2) > 128)
-#error MAX allowed joystick buttons is 128!
+`#if ((KEYPADS_NO*16)+(ENCODERS_NO*3)+(SWITCHES_NO*2) > 128)  
+#error MAX allowed joystick buttons is 128!  
 #endif`  
 
 # Suggestions wanted
