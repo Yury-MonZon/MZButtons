@@ -18,9 +18,7 @@ The device can provide up to 128 buttons. Each rocker/toggle switch counts as 2 
 Yup, I need someone to help me find the best layout for the decals and to add color-code grouping to them.  
 
 # Status
-The project is almost finished, check what's left below. The code and 3d printed case parts were printed/tested/debugged.  
-**TODO:**
-Install encoders and debug the corresponding code. I'm still waiting for the parcel with encoders to arrive.
+The project is ready. The code and 3d printed case parts were printed/tested/debugged.  
 
 # Files and Folders
 In **Decals** folder you can find **Print_me.html** file in which you can easily create and customize your own labels for the buttons. Just print it out on any laser printer and cut along the lines.
