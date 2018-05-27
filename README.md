@@ -66,8 +66,14 @@ are connected to A0, A1, A2, A3, 4, 6, 8, 9 pins on Arduino Pro Micro. Also, the
 - Rocker/Toggle switches  
 should be connected to pins 10, 14, 15, 16 with the other wire connected to the GND pin.  
 - Encoders  
-The encoder's support has not been tested as I am still waiting for the parcel to arrive.  
+should be connected to pins 3, 2, 5 (encoder1 pinA, pinB, button) and 0, 1, 7 (encoder2 pinA, pinB, button). Also, don't forget the ground connection.
 
+# Special thanks to:
+- Matthew Heironimus for the Joystick Library https://github.com/MHeironimus/ArduinoJoystickLibrary
+- Ben Buxton for the best encoder debouncing algorithm  http://www.buxtronix.net/2011/10/rotary-encoders-done-properly.html  
+- Marco Colli for the adaptation of the previous library  https://github.com/MajicDesigns/MD_REncoder
+- Andrew_Whitham for the Pro Micro 3D model   https://grabcad.com/library/arduino-pro-micro-1
+- Victor Fedyunin for the HTML tuning mailto:vitfed16@mail.ru
 
 
 # I like this thing! What can I do?
